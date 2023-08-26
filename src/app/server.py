@@ -197,7 +197,7 @@ def process_data():
     noticiaExterna = getInfo(url)
     noticiaExterna = filtro(noticiaExterna)
     noticiaExterna = [noticiaExterna]
-    print(noticiaExterna)#############################################################
+
     noticiaExternaVec = vectorizer.transform(noticiaExterna)
     noticiaExternaVec = tsvd.transform(noticiaExternaVec)
 
