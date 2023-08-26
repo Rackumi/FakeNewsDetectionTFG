@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-color: rgba(15, 15, 15, 0.979);
+
+}
